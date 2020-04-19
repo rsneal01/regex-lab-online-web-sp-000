@@ -16,14 +16,20 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.scan(/^[A-Z][0-9.!?,;:]$/)
-      return true
-    elsif text.scan(/^[a-z][0-9.!?,;:]$/)
-      return false
-    else
-      false
+  text.scan(/^[A-Z][0-9.!?,;:]$/)
+  
 end
-end
+  
+
+# def first_word_capitalized_and_ends_with_punctuation?(text)
+#   if text.scan(/^[A-Z][0-9.!?,;:]$/)
+#       return true
+#     elsif text.scan(/^[a-z][0-9.!?,;:]$/)
+#       return false
+#     else
+#       false
+# end
+# end
   
 
 # def words_five_letters_long(text)
