@@ -21,5 +21,6 @@ text.match(/$())
 end
 
 def valid_phone_number?(phone)
+  scan.phone(/)
 
 end
